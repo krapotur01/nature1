@@ -1,0 +1,49 @@
+
+@font-face { 
+
+font-family: "Orbitron-Regular";
+src: url("/font/Orbitron/OrbitronRegular/Orbitron-Regular.eot");
+src: url("/font/Orbitron/OrbitronRegular/Orbitron-Regular.eot?iefix") format("embedded-opentype"),
+        url("/font/Orbitron/OrbitronRegular/Orbitron-Regular.woff") format("woff"),
+        url("/font/Orbitron/OrbitronRegular/Orbitron-Regular.ttf") format("ttf");
+font-style: normal;
+font-weight: normal;        
+
+
+}
+@font-face { 
+
+font-family: "Orbitron-Bold";
+src: url("/font/Orbitron/OrbitronBold/Orbitron-Bold.eot");
+src: url("/font/Orbitron/OrbitronBold/Orbitron-Bold.eot?iefix") format("embedded-opentype"),
+        url("/font/Orbitron/OrbitronBold/Orbitron-Bold.woff") format("woff"),
+        url("/font/Orbitron/OrbitronBold/Orbitron-Bold.ttf") format("ttf");
+font-style: normal;
+font-weight: normal;        
+
+
+}
+@font-face { 
+
+font-family: "Orbitron-Medium";
+src: url("/font/Orbitron/OrbitronMedium/Orbitron-Medium.eot");
+src: url("/font/Orbitron/OrbitronMedium/Orbitron-Medium.eot?iefix") format("embedded-opentype"),
+        url("/font/Orbitron/OrbitronMedium/Orbitron-Medium.woff") format("woff"),
+        url("/font/Orbitron/OrbitronMedium/Orbitron-Medium.ttf") format("ttf");
+font-style: normal;
+font-weight: normal;        
+
+
+}
+
+@font-face { 
+
+    font-family: "BerkshireRegular";
+    src: url("/font/berkshire/BerkshireRegular/BerkshireRegular.eot");
+    src: url("/font/berkshire/BerkshireRegular/BerkshireRegular.eot?iefix") format("embedded-opentype"),
+            url("/font/berkshire/BerkshireRegular/BerkshireSwash-Regular.woff") format("woff"),
+            url("/font/berkshire/BerkshireRegular/BerkshireRegular.ttf") format("ttf");
+    font-style: normal;
+    font-weight: normal;        
+    
+}

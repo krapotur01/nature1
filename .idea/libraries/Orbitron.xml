@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Orbitron">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/font/Orbitron.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

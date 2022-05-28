@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+body {
+    background-color: rgb(49, 54, 85);
+    font-family: 'Nanum Myeongjo', serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.title {
+    text-shadow: rgb(134 149 177) 0px 0px 7px;
+    color: rgb(228, 228, 252);
+    font-size: 65pt;
+    margin: 0px;
+}
+
+.icon {
+    width: 110px;
+    height: 125px;
+    transform: rotate(-20deg);
+    margin: 0 5px 5px 0;
+    overflow: hidden;
+}
+
+#clock {
+    text-shadow: rgb(33 211 56) 0px 0px 0px;
+    color: rgb(33, 211, 56);
+    font-size: 26pt;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.card {
+    max-width: 545px;
+    max-height: 300px;
+    position: relative;
+}
+
+.card-img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.card-img:hover {
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    transition: 1.2s;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.img-active {
+    box-shadow: 0 0 30px rgb(109 252 104);
+    border-radius: 20px;
+    height: 95%;
+    width: 92%;
+    margin: 2% 1% 1% 4%;
+}
+
+
+h2 {
+    position: absolute;
+    text-shadow: rgb(2, 8, 17) 0 0 7px;
+    color: rgb(228, 228, 252);
+    font-size: 26pt;
+    top: 30px;
+    right: 50px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title {
+    text-shadow: rgb(134 149 177) 0px 0px 7px;
+    color: rgb(228, 228, 252);
+    font-size: 30pt;
+    margin: 0 0 -5px;
+}
+
+#inst {
+    text-shadow: rgb(33 211 56) 0 0 0px;
+    color: rgb(228, 228, 252);
+    font-size: 19pt;
+}
+
+a {
+    text-shadow: rgb(33, 211, 56) 0 0 0px;
+    color: rgb(33, 211, 56);
+    text-decoration: none;
+}
+
+
+
+/*@media (max-width: 1300px) {
+    #clock {
+        color: rgb(33, 211, 56);
+        font-size: 34pt;
+        display: block;
+        right: 0;
+        margin-right: 365px;
+        top: -39px;
+        position: absolute;
+    }
+    h3 {
+        position: absolute;
+        text-shadow: rgb(134 149 177) 0px 0px 7px;
+        color: rgb(228, 228, 252);
+        font-size: 39pt;
+        bottom: -861px;
+        right: 251px;
+    }
+    #inst {
+        text-shadow: rgb(33 211 56) 0 0 0px;
+        color: rgb(228, 228, 252);
+        position: absolute;
+        bottom: -20px;
+        right: 119px;
+        font-size: 19pt;
+    }
+}*/
