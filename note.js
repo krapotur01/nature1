@@ -21,7 +21,7 @@ container.innerHTML = ['Утро', 'Дождь', 'Речка', 'Ночь', 'Ко
     .map(
         (name, i) => `
     <div class="card">
-        <img src="/img/0${i}.jpg" alt="${name}" 
+        <img src="./img/0${i}.jpg" alt="${name}" 
         onclick="toggleAudio(${i}); toggleImg(this)" class="card-img">
         <h2>${name}</h2>
     </div>
